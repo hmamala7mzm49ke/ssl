@@ -54,7 +54,7 @@ echo "  #             CHANNEL  : @NewPremiumService                        #"| l
 echo "  #------------------------------------------------------------------#"| lolcat
 echo "  ===================================================================="| lolcat
 # check registered ip
-wget -q -O IP "https://raw.githubusercontent.com/sslmode/sslmode/master/IP.txt"
+wget -q -O IP "https://raw.githubusercontent.com/hmamala7mzm49ke/ssl/master/IP.txt"
 if ! grep -w -q $MYIP IP; then
 	echo "MAAF!! Hanya IP terdaftar sahaja yang boleh menggunakan Autoscript ini" | lolcat
 	if [[ $vps = "zvur" ]]; then
